@@ -3,9 +3,10 @@ import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import Image from "next/image"
 import { About } from "./components/About"
-import { Impact } from "./Impact"
+import { Impact } from "./components/Impact"
 import Faq from "./components/Faq"
 import { Sucess } from "./components/Sucess"
+import { Contact } from "./components/Contact";
 import Link from "next/link"
 import { motion} from "framer-motion";
 
@@ -97,10 +98,10 @@ const Page = () => {
 
   <div className="absolute bottom-4 left-4 right-4">
     <h3 className="text-white text-lg font-semibold">
-      Challenge Title
+      AI Innovation
     </h3>
     <p className="text-white/80 text-sm">
-      Short description goes here
+      Cutting-edge Solutions
     </p>
   </div>
 </div>
@@ -123,10 +124,10 @@ const Page = () => {
 
   <div className="absolute bottom-4 left-4 right-4">
     <h3 className="text-white text-lg font-semibold">
-      Challenge Title
+      AI Innovation
     </h3>
     <p className="text-white/80 text-sm">
-      Short description goes here
+      Cutting-edge Solutions
     </p>
   </div>
 </div>
@@ -149,10 +150,10 @@ const Page = () => {
 
   <div className="absolute bottom-4 left-4 right-4">
     <h3 className="text-white text-lg font-semibold">
-      Challenge Title
+     AI Innovation
     </h3>
     <p className="text-white/80 text-sm">
-      Short description goes here
+    Cutting-edge Solutions
     </p>
   </div>
 </div>
@@ -174,10 +175,10 @@ const Page = () => {
 
   <div className="absolute bottom-4 left-4 right-4">
     <h3 className="text-white text-lg font-semibold">
-      Challenge Title
+      AI Innovation
     </h3>
     <p className="text-white/80 text-sm">
-      Short description goes here
+      Cutting-edge Solutions
     </p>
   </div>
 </div>
@@ -191,6 +192,7 @@ const Page = () => {
       <Impact />
       <Sucess/>
       <Faq />
+      <Contact/>
       
     </section>
   )

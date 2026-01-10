@@ -3,15 +3,15 @@ import Image from "next/image"
 
 export const Impact = () => {
   return (
-    <section className="relative overflow-hidden pt-16 sm:pt-20 md:pt-28">
+    <section className="relative overflow-hidden pt-16 sm:pt-20 md:pt-28" id="impact">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
      
         <div className="text-center mb-14 flex flex-col items-center gap-10">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-brand-black">
             Our Impact <span className="text-brand-blue">*</span>
           </h2>
-          <p className="text-brand-grey max-w-2xl text-sm sm:text-base">
+          <p className="text-brand-grey max-w-2xl text-sm md:text-xl sm:text-base">
             Showcasing the real-world outcomes of student-developed AI solutions and
             their contribution to solving government challenges.
           </p>
@@ -31,18 +31,18 @@ export const Impact = () => {
           </div>
 
           
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-11 text-5xl font-bold text-brand-blue">
-      <div className="flex flex-col ">  50+
-        <p className="ml-2">xyz</p>
+          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 gap-11 text-5xl font-bold sm:ml-10 ">
+      <div className="flex flex-col  ">  <span className="text-brand-blue ">12+</span> 
+        <p className="ml-2  text-lg">Challenges Published</p>
       </div>
-            <div className="flex flex-col "> 50+
-        <p className="ml-2">xyz</p>
+            <div className="flex flex-col "> <span className="text-brand-blue ">500+</span> 
+        <p className="ml-2 text-lg">Students Participated</p>
       </div>
-            <div className="flex flex-col "> 50+
-        <p className="ml-2">xyz</p>
+            <div className="flex flex-col"> <span className="text-brand-blue ">150+</span> 
+        <p className="ml-2 text-lg">Solutions Submitted</p>
       </div>
-            <div className="flex flex-col "> 50+
-        <p className="ml-2">xyz</p>
+            <div className="flex flex-col "> <span className="text-brand-blue ">8</span> 
+        <p className="ml-2 text-lg">solutions deployed</p>
       </div>
     
      </div>

@@ -55,6 +55,8 @@
   --brand-grey: #4A5565;
   --brand-greyish:#E5E5E54D;
   --brand-border-grey:#D1D5DC;
+  --brand-green:#00A63E;
+  --brand-purple: #9810FA;
   --font-sans:"Inter";
   --radius: 0.625rem;
   --background: linear-gradient(90deg,rgba(249, 250, 251, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(249, 250, 251, 1) 100%);
@@ -149,7 +151,9 @@ h5 {
     --color-brand-whitish: var(--brand-whitish);
     --color-brand-grey: var(--brand-grey);
     --color-brand-greyish: var(--brand-greyish);
-    --color-brand-border-grey: var(--brand-border-grey)}
+    --color-brand-border-grey: var(--brand-border-grey);
+    --color-brand-green:var(--brand-green);
+    --color-brand-purple:var(--brand-purple);}
     
 
 

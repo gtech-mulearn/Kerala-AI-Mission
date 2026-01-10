@@ -3,6 +3,8 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
+import { About } from "@/app/(home)/components/About";
 const Navbar = () => {
   const [open, setOpen] = useState<boolean>(false);
 
@@ -38,11 +40,11 @@ const Navbar = () => {
             <div className="absolute top-full left-0 w-full bg-brand-whitish p-6 z-40 md:hidden">
               <div className="flex flex-col gap-6 text-brand-grey">
                 <a href="/" onClick={() => setOpen(true)}>Home</a>
-                <a href="/" onClick={() => setOpen(true)}>Taks</a>
-                <a href="/" onClick={() => setOpen(true)}>About Us</a>
-                <a href="/" onClick={() => setOpen(true)}>Impact</a>
-                 <a href="/" onClick={() => setOpen(true)}>FAQ</a>
-                <a href="/" onClick={() => setOpen(true)}>Contact</a>
+                <a href="/tasks" onClick={() => setOpen(true)}>Tasks</a>
+                <Link href="#about" onClick={() => setOpen(false)}>About Us</Link>
+                <a href="#impact" onClick={() => setOpen(true)}>Impact</a>
+                 <a href="#faq" onClick={() => setOpen(true)}>FAQ</a>
+                <a href="#contact" onClick={() => setOpen(true)}>Contact</a>
               </div>
             </div>
           )}
@@ -51,10 +53,10 @@ const Navbar = () => {
           <div className="hidden md:flex gap-6 text-brand-grey">
             <a href="/" className="hover:text-brand-blue">Home</a>
             <a href="/tasks" className="hover:text-brand-blue">Tasks</a>
-            <a href="/about" className="hover:text-brand-blue">About Us</a>
-            <a href="/impact" className="hover:text-brand-blue">Impact</a>
-            <a href="/faq" className="hover:text-brand-blue">FAQ</a>
-            <a href="/" className="hover:text-brand-blue">Contact</a>
+            <a href="#about" className="hover:text-brand-blue">About Us</a>
+            <a href="#impact" className="hover:text-brand-blue">Impact</a>
+            <a href="#faq" className="hover:text-brand-blue">FAQ</a>
+            <a href="#contact" className="hover:text-brand-blue">Contact</a>
             
           </div>
 
